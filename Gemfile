@@ -17,7 +17,13 @@ gem 'paperclip'
 # gem 'aws-sdk', '~> 2.2', '>= 2.2.24'
 # gem 'aws-sdk', '~>2.0'
 
-gem 'aws-sdk'
+# gem 'aws-sdk'
+
+# gem 'aws-sdk', '<2..0'
+
+
+gem 'aws-sdk-v1'
+gem 'aws-sdk', '~> 2'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
